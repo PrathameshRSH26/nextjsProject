@@ -70,7 +70,7 @@ export const Menu = ({
              backdrop-blur-md 
              border border-white/10 
              shadow-[0_0_30px_rgba(0,0,0,0.5)] 
-             flex justify-center space-x-4 px-8 py-6"
+             flex items-center justify-center space-x-6 px-8 py-4"
     >
       {children}
     </nav>
@@ -119,7 +119,7 @@ export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
   return (
     <a
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black"
+      className="text-neutral-700 dark:text-neutral-200 hover:text-white"
     >
       {children}
     </a>
