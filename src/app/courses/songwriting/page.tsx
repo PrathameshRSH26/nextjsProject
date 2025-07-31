@@ -55,9 +55,9 @@ const SongwritingPage = () => {
           </div>
 
           <div className="text-center">
-            <button className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-blue-700 transition-all duration-300 mr-4">
+            <Link href="/enrollment?course=Song Writing&price=$299" className="inline-block bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-green-600 hover:to-blue-700 transition-all duration-300 mr-4">
               Enroll Now
-            </button>
+            </Link>
             <Link href="/courses" className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300">
               Back to Courses
             </Link>

@@ -55,9 +55,9 @@ const TheoryPage = () => {
           </div>
 
           <div className="text-center">
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 mr-4">
+            <Link href="/enrollment?course=Basic Music Theory&price=$199" className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 mr-4">
               Enroll Now
-            </button>
+            </Link>
             <Link href="/courses" className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300">
               Back to Courses
             </Link>

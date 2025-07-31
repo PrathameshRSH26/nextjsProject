@@ -55,9 +55,9 @@ const ProductionPage = () => {
           </div>
 
           <div className="text-center">
-            <button className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-red-700 transition-all duration-300 mr-4">
+            <Link href="/enrollment?course=Music Production&price=$499" className="inline-block bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-orange-600 hover:to-red-700 transition-all duration-300 mr-4">
               Enroll Now
-            </button>
+            </Link>
             <Link href="/courses" className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300">
               Back to Courses
             </Link>

@@ -55,9 +55,9 @@ const CompositionPage = () => {
           </div>
 
           <div className="text-center">
-            <button className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 mr-4">
+            <Link href="/enrollment?course=Advanced Composition&price=$399" className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 mr-4">
               Enroll Now
-            </button>
+            </Link>
             <Link href="/courses" className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300">
               Back to Courses
             </Link>
