@@ -17,7 +17,7 @@ const CompositionPage = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-900 rounded-lg p-6">
-              <h2 className="text-2xl font-bold mb-4">What You'll Learn</h2>
+              <h2 className="text-2xl font-bold mb-4">What You&apos;ll Learn</h2>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
                   <span className="text-green-400 mr-2">✓</span>
@@ -55,10 +55,16 @@ const CompositionPage = () => {
           </div>
 
           <div className="text-center">
-            <Link href="/enrollment?course=Advanced Composition&price=$399" className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 mr-4">
+            <Link
+              href="/enrollment?course=Advanced Composition&price=$399"
+              className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 mr-4"
+            >
               Enroll Now
             </Link>
-            <Link href="/courses" className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300">
+            <Link
+              href="/courses"
+              className="inline-block bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 transition-all duration-300"
+            >
               Back to Courses
             </Link>
           </div>
