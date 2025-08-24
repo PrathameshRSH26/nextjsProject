@@ -1,5 +1,5 @@
 import EnrollmentForm from '@/components/EnrollmentForm'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 const EnrollmentPage = () => {
   return (
@@ -9,7 +9,9 @@ const EnrollmentPage = () => {
       
       {/* Centered Form Content */}
       <div className="relative z-10 w-full">
-        <EnrollmentForm />
+        <Suspense fallback={<div className="text-white text-center">Loading...</div>}>
+          <EnrollmentForm />
+        </Suspense>
       </div>
     </div>
   )
